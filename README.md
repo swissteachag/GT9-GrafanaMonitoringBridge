@@ -9,7 +9,7 @@ This bridge connects to the GT ApplicationState service via .NET Remoting and ex
 ## Prerequisites
 
 - .NET Framework 4.8 Runtime
-- Access to GT ApplicationState service (default port 20010/20090)
+- Access to GT ApplicationState service
 - GT binaries folder containing `Twi.Gt.Lms.dll` and dependencies
 - HTTP port reservation or Administrator privileges
 
@@ -59,9 +59,7 @@ Edit `GrafanaMonitoringBridge.exe.config` to configure the bridge:
 ```
 
 - **Lms.DllPath**: Absolute path to folder containing GT binaries
-  - **Required** when running on a different machine than GT
-  - Must contain `Twi.Gt.Lms.dll` and its dependencies
-  - Example: `C:\GT\DT_FlowDev\Twi.Gt.SvcHost`
+  - **Required** Must contain `Twi.Gt.Lms.dll` and its dependencies
   - If empty, searches relative paths (for development only)
 
 ## Installation & Setup
