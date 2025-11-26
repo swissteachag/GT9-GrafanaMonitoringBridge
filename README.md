@@ -162,15 +162,6 @@ nssm start GTMonitoringBridge
 
 ### Available Metrics
 
-#### System Metrics
-- `gt_cpu_usage` - CPU usage percentage
-- `gt_memory_usage_mb` - Memory usage in megabytes
-- `gt_uptime_seconds` - Application uptime in seconds
-- `gt_active_users` - Number of active users
-- `gt_chat_users` - Number of chat users
-- `gt_running_lessons` - Number of running lessons
-- `gt_sessions_total{domain="ID"}` - Total sessions per domain
-
 #### Service Metrics
 - `gt_service_status{name="Service Name"}` - Service status (1=running, 0=stopped)
 - `gt_service_errors{name="Service Name"}` - Number of errors for service
@@ -182,16 +173,6 @@ nssm start GTMonitoringBridge
 - `gt_services_running` - Number of currently running services
 
 ### Example Grafana Queries
-
-**CPU Usage Over Time:**
-```promql
-gt_cpu_usage
-```
-
-**Memory Usage:**
-```promql
-gt_memory_usage_mb
-```
 
 **Service Status:**
 ```promql
