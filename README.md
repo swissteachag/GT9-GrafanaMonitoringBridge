@@ -304,8 +304,8 @@ Output will be in `bin\Release\`
 
 ## License
 
-This bridge is part of the GT application suite.
+MIT
 
 ## Support
 
-For issues or questions, contact your GT administrator.
+This software is not part of the Global Teach application suite ad will not be activly maintained and supported! It serves no purpose without an active license of Global Teach, which can be purchased from Swissteach AG. Use at your won risk 
