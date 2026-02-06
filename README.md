@@ -260,7 +260,7 @@ Or run the application as Administrator.
 
 Set the `Lms.DllPath` configuration to point to your GT installation folder:
 ```xml
-<add key="Lms.DllPath" value="C:\GT\DT_FlowDev\Twi.Gt.SvcHost" />
+<add key="Lms.DllPath" value="C:\GT\Svchost-Folter" />
 ```
 
 ### "Unable to find assembly 'Twi.Gt.Lms'" during queries
